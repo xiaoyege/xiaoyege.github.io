@@ -112,7 +112,10 @@ body {
     margin: 20px 0;
     line-height: 1.28;
 }
-
+.left .img{
+    text-align:center;
+    text-indent:0;
+}
 .left p:first-child {
     color: #888;
     font-size: 12px;
@@ -163,8 +166,97 @@ body {
 }
 
 .tie {
-    font-family: 微软雅黑;
+    font-family: microsoft yahei;
     color: #666666;
-    font-size: 13px;
-    text-align: center
+    margin-bottom: 15px;
+    text-align: center;
+}
+/*相关新闻区块样式*/
+
+.relation {
+    border-top: 1px #cccccc solid;
+    border-bottom: 1px #ccc solid;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.topic-img {
+    float: left;
+    width: 310px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.topic-img img {
+    border: 1px black solid;
+    width:300px;
+    height: 200px;
+    }
+
+.news-list {
+    width: 310px;
+    height: 200px;
+    float: left;
+}
+
+div.news-list p.topic-nav {
+    color: #7C1121;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Microsoft Yahei";
+}
+
+.news-list ul {
+    list-style-type: disc;
+    color: #7C1121;
+    margin-left: 10px;
+    line-height: 2;
+
+}
+
+.news-list li a {
+    font-size: 12px;
+    color: #555;
+    text-decoration: none;
+}
+
+
+/*右侧样式*/
+
+.aside {
+    float: left;
+    width: 295px;
+    padding: 0 10px;
+}
+
+.recommend {
+    margin: 15px 0;
+    color:black;
+}
+.recommend a{
+    color:black;
+    text-decoration: none;
+}
+
+/*页脚样式*/
+
+.foot {
+    border-top: 10px #918F7A solid;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    line-height: 1.5;
+}
+
+.foot span {
+    margin: 0 8px;
+}
+
+.foot a {
+    color: #888;
+    text-decoration: none;
+}
+
 }
