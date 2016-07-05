@@ -52,7 +52,7 @@
 }
 
 .col-sm-4 h3 a {
-    color: red;
+    color: darkred;
     text-align:center;
 }
 
@@ -68,7 +68,12 @@
 }
 
 .col-sm-4 h5 a {
-    color: red;
+    color: darkred;
+}
+.col-sm-8 p{
+    font-size:16px;
+      font-family: microsoft yahei;
+
 }
 
 
